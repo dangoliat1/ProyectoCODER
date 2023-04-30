@@ -1,127 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
 
 *{
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;;
 }
 
-.nav-item {
-  margin: 10px;
-  margin-right: 20px;
-  padding: 0 10px 0 10px;
+.headerpages{
+ margin-bottom: 90px;
 }
 
-.nav-item a{
-  font-weight: bold;
-  transition: 0.09s;
-  border-radius: 10px;
-  color: whitesmoke;
+
+.bg-navbar{
+    /* background-color: #212529; */
+    background-image: url(../img/navbar.svg);
+    background-position: left;
+    background-size: cover;
 }
 
-.nav-item a:hover{
- border-radius: 10px;
- color: #000080 !important;
- text-shadow: 1px 1px 5px dimgray;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
 }
 
-footer{
-  background-color: darkslateblue;
+nav a{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.footer-icons a{
-  color: white;
+.linknav:hover, .linknava:hover{
+    box-shadow:0.2px 0.2px 1px 0.2px gray inset;
+    background-color: white !important;
+    color: black !important;
 }
 
-.footer-icons a:hover{
-  color: #e7727e;
-  text-shadow: 1px 1px 5px dimgray;
+.logohead{
+    height: 50px;
 }
 
-.footer-icons .footer-social{
-  letter-spacing: 15px;
+.presentacion{
+    background-image: url(../img/imginicio.png);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    /* filter: brightness(0.6); */
 }
 
-.enlace:hover{
-border-radius: 10px;
- color: #000080 !important;
- text-shadow: 1px 1px 5px dimgray;
+.outpresentacion{
+    z-index: 1;
+    filter: brightness(1.2);
 }
 
-.promo:hover{
-  border: 3px solid #000080 !important;
-  box-shadow: 2px 2px 5px gray;
+.copyr{
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-.servicios:hover{
-  border: 3px solid #f6ea98 !important;
-  box-shadow: 2px 2px 2px gray;
+.inisec3{
+    height: 220px;
 }
 
-.tarjeta-s{
-  text-align: center;
-  width: 80%;
-  margin: 2px;
-  background-color: #f5f5f5;
-  border: 3px solid #000080 !important;
-  border-radius: 10px;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
 }
 
-section .tarjeta-s img{
-  width: 200px;
-}
-
-.nosotros{
-  width: 70%;
-}
-
-.tarjeta{
-  width: 70%;
-  transition: 0.5s;
-}
-
-.tarjeta:hover{
-  scale: 1.02;
-  transition: 0.5s;
-}
-
-.tarjeta-s{
-  transition: 0.5s;
-}
-
-.tarjeta-s:hover{
-  rotate: 2deg;
-  transition: 0.5s;
-}
-
-/* // Medium devices (tablets md, 768px and up) */
-@media (min-width: 768px) { 
-
-  .tarjeta-s{
-    width: 40%;
-  }
-
-  .nosotros{
-    width: 70%;
-  }
-
-  .tarjeta{
-    width: 40%;
-  }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 
  }
 
-/* // Large devices (desktops lg, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
-  .tarjeta-s{
-    width: 30%;
-  }
-
-  .nosotros{
-    width: 30%;
-  }
-
-  .tarjeta{
-    width: 22%;
-  }
+    .linknav{
+        color: #212529 !important; 
+    }
  }
 
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .inisec3{
+        height: 180px;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .inisec3{
+        height: 150px;
+    }
+}

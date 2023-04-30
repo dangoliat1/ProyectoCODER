@@ -3,7 +3,7 @@
 
 <head>
   <!-- title and favicon -->
-  <title>Fisioterapia Maral</title>
+  <title>Moving Fisioterapia</title>
   <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
 
   <!-- Required meta tags -->
@@ -11,10 +11,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <!-- Bootstrap CSS v5.3  and bs-Icons and fontawesome -->
+  <!-- Bootstrap CSS v5.3, -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <!-- bs-Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+  <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,149 +26,352 @@
 </head>
 
 <body>
-  <header>
-    <!-- Icon, Navbar, menu, hamburguericon -->
-    <nav class="navbar navbar-expand-lg bg-danger bg-opacity-75 bg-gradient sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="../index.html">
-          <img src="../img/Logo.png" alt="maral logo" width="150px" height="auto" />
-        </a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars shadow-sm text-light"></i>
-        </button>
-        <div class="offcanvas offcanvas-end w-100 text-center bg-danger bg-opacity-50" tabindex="-1"
-          id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <div class="w-100 text-end">
-              <button type="button" class="btn-close text-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-          </div>
-          <div class="offcanvas-header">
-            <div class="text-center w-100">
-              <a href="../index.html"><img src="../img/Icono.png" width="80px" /></a>
-            </div>
-          </div>
-          <div class="offcanvas-body mx-auto">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Servicios
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item text-dark disabled" href="">Deportiva</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Neurológica</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Traumatológica</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Geriátrica</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Suelo Pélvico</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Estimulación Temprana</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Respiratoria</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Masajes Terapéuticos</a></li>
-                  <li><a class="dropdown-item text-dark disabled" href="">Drenaje linfático Manual</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="servicios dropdown-item text-dark w-50 mx-auto" href="./servicios.html">Ver más</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/infraestructura.html">Infraestructura</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link border-5 px-4 rounded bg-warning bg-opacity-75 fw-bold shadow text-light"
-                  href="../pages/contacto.html">Haz tu primer cita</a>
-              </li>
-            </ul>
-          </div>
+  <!-- Icon, Navbar, menu, hamburguericon -->
+  <header class="headerpages">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-0 mx-0 bg-navbar shadow" id="mainNav">
+      <div class="container-fluid px-4 mx-xl-5 px-xl-5">
+        <a class="navbar-brand" href="../index.html"><img class="logohead pb-1" src="../img/logo.svg" alt="Icono"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation"><span><i class="fa-solid fa-ellipsis text-danger"></i></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item"><a
+                class="nav-link linknav fw-semibold border-bottom border-1 rounded border-primary text-light mx-4 px-4 my-3 my-lg-0"
+                href="../pages/servicios.html">Servicios</a></li>
+            <li class="nav-item"><a
+                class="nav-link linknav fw-semibold border-bottom border-1 rounded border-primary text-light mx-4 px-4 my-3 my-lg-0"
+                href="../pages/nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a
+                class="nav-link linknav fw-semibold border-bottom border-1 rounded border-primary text-light mx-4 px-4 my-3 my-lg-0"
+                href="../pages/infraestructura.html">Infraestructura</a></li>
+            <li class="nav-item"><a
+                class="nav-link linknava fw-semibold border-bottom border-1 rounded border-primary text-light bg-primary mx-4 px-4 my-3 my-lg-0"
+                href="../pages/contacto.html">Haz una cita</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
   </header>
-
   <main>
-    <h1 class="w-100 text-center mb-5 mt-3">Servicios de Fisioterapia</h1>
-    <section class="row mx-auto text-center justify-content-evenly mb-5 row-gap-3">
-        <div class="col-md-6 tarjeta-s col-lg-4">
-          <img src="../img/deportiva.png">
-          <h3>Deportiva</h3>
-          <p>Prevención, re-adaptación y recuperación de la funcionalidad posterior a una lesión deportiva.</p>
+    <!-- main content -->
+    <!-- Servicios -->
+    <h2 class="fw-semibold display-5 row-cols-12 text-center">Servicios</h2>
+    <section class="container d-flex justify-content-center mb-5">
+      <div class="card p-3 shadow-sm">
+        <h3 class="fw-semibold display-6 text-center p-3">Servicios de <span class="text-primary"
+            style="font-family: 'Montserrat', sans-serif;">Fisioterapia</span></h3>
+        <nav>
+          <div class="nav nav-tabs mb-3 d-flex justify-content-around" id="nav-tab" role="tablist">
+            <button class="nav-link active fs-4" id="nav-deportiva-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-deportiva" type="button" role="tab" aria-controls="nav-deportiva"
+              aria-selected="true">Deportiva <br><i class="fa-solid fa-dumbbell fs-1 text-success"></i></button>
+            <button class="nav-link fs-4" id="nav-pediatrica-tab" data-bs-toggle="tab" data-bs-target="#nav-pediatrica"
+              type="button" role="tab" aria-controls="nav-pediatrica" aria-selected="false">Pediátrica <br><i
+                class="fa-solid fa-baby fs-1 text-success"></i></button>
+            <button class="nav-link fs-4" id="nav-ortopedica-tab" data-bs-toggle="tab" data-bs-target="#nav-ortopedica"
+              type="button" role="tab" aria-controls="nav-ortopedica" aria-selected="false">Ortopédica <br><i
+                class="fa-solid fa-bone fs-1 text-success"></i></button>
+            <button class="nav-link fs-4" id="nav-pulmonar-tab" data-bs-toggle="tab" data-bs-target="#nav-pulmonar"
+              type="button" role="tab" aria-controls="nav-pulmonar" aria-selected="false">Pulmonar <br><i
+                class="fa-solid fa-lungs fs-1 text-success"></i></button>
+            <button class="nav-link fs-4" id="nav-geriatrica-tab" data-bs-toggle="tab" data-bs-target="#nav-geriatrica"
+              type="button" role="tab" aria-controls="nav-geriatrica" aria-selected="false">Geriátrica <br><i
+                class="fa-solid fa-person-cane fs-1 text-success"></i></button>
+            <button class="nav-link fs-4" id="nav-neurologica-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-neurologica" type="button" role="tab" aria-controls="nav-neurologica"
+              aria-selected="false">Neurológica <br><i class="fa-solid fa-brain fs-1 text-success"></i></button>
+          </div>
+        </nav>
+        <div class="container tab-content p-3 border bg-light" id="nav-tabContent">
+          <div class="tab-pane fade active show" id="nav-deportiva" role="tabpanel" aria-labelledby="nav-deportiva-tab">
+            <div>
+              <p class="fs-4 text-primary"><strong class="text-black">Fisioterapia Deportiva:</strong><br> Mejora en las
+                condiciones físicas de deportistas y personas que se ejercitan regularmente.</p>
+              <p class="fs-5">Permite que los deportistas vuelvan a su estado físico y mejoren su confianza por medio
+                del fortalecimiento y la recuperación de músculos, ligamentos, articulaciones entre otros sin la
+                necesidad de una intervención quirúrgica o de medicamentos.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <img src="../img/deportiva.jpg" class="img-fluid" alt="deportiva">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-pediatrica" role="tabpanel" aria-labelledby="nav-pediatrica-tab">
+            <div>
+              <p class="fs-4 text-primary"><strong class="text-black">Fisioterapia Pedíatrica</strong><br> Infantes y
+                adolescentes / Estimulación temprana a niños</p>
+              <p class="fs-5">Asesora, trata y cuida las personas de los 0 a los 18 años. Puede ayudar en aquellos niños
+                que tengan un retraso en su desarrollo, o bien anomalías en el movimiento o riesgo de padecerlas.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <img src="../img/pediatrica.jpg" class="img-fluid" alt="pediatrica">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-ortopedica" role="tabpanel" aria-labelledby="nav-ortopedica-tab">
+            <div>
+              <p class="fs-4 text-primary"><strong class="text-black">Fisioterapia Ortopédica</strong><br>
+                Rehabilitación de fracturas, desgarres y problemas de postura, entre otras lesiones.</p>
+              <p class="fs-5">Se centra en una precisa evaluación, diagnóstico y tratamiento de lesiones
+                músculo-esqueléticas. Las lesiones musculoesqueléticas son las lesiones en articulaciones, músculos,
+                huesos, tejidos blandos y/o de los nervios.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <img src="../img/ortopedica.jpg" class="img-fluid" alt="ortopedica">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-pulmonar" role="tabpanel" aria-labelledby="nav-pulmonar-tab">
+            <div>
+              <p class="fs-4 text-primary"><strong class="text-black">Fisioterapia Pulmonar</strong><br> Se aplican
+                técnicas para prevenir y tratar enfermedades que afectan al sistema respiratorio.</p>
+              <p class="fs-5">Enfocada a prevenir, tratar y estabilizar las disfunciones o alteraciones de la
+                respiración. Su objetivo es mejorar la ventilación regional pulmonar, el intercambio de gases, la
+                función de los músculos que intervienen en la respiración, la disnea, la tolerancia a hacer ejercicio,
+                entre otros problemas.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <img src="../img/pulmonar.jpg" class="img-fluid" alt="pulmonar">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-geriatrica" role="tabpanel" aria-labelledby="nav-geriatrica-tab">
+            <div>
+              <p class="fs-4 text-primary"><strong class="text-black">Fisioterapia Geriátrica</strong><br> Restauración
+                del funcionamiento y movilidad corporal de personas de la tercera edad.</p>
+              <p class="fs-5">Es una especialidad de la fisioterapia que trabaja la prevención, diagnóstico y
+                tratamiento de las patologías de personas de edad avanzada. Se basa en formas concretas de aplicación y
+                adaptación de las personas mayores y es una disciplina fundamental a la hora de tratar enfermedades
+                derivadas del envejecimiento.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <img src="../img/geriatrica.jpg" class="img-fluid" alt="geriatrica">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-neurologica" role="tabpanel" aria-labelledby="nav-neurologica-tab">
+            <div>
+              <p class="fs-4 text-primary"><strong class="text-black">Fisioterapia Neurológica</strong><br> Tarto a
+                pacientes con lesiones cerebrales y en el sistema nervioso.</p>
+              <p class="fs-5">Da tratamiento de las alteraciones y lesiones ocasionadas por una afectación del Sistema
+                Nervioso central o periférico y que afectan al movimiento. La fisioterapia neurológica centra su
+                actividad en mejorar la movilidad del paciente.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <img src="../img/neurologica.jpg" class="img-fluid" alt="neurologica">
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/neurologica.png">
-          <h3>Neurológica</h3>
-          <p>Abordaje terapéutico de las alteraciones debidas a una afectación del sistema nervioso central o
-            periférico.</p>
+      </div>
+    </section>
+    <!-- Motivos para visitar -->
+    <section class="bg-info">
+      <div class="container mb-3 py-4">
+        <div class="row">
+          <h2 class="fw-semibold display-5">Cuatro <span class="text-primary"
+              style="font-family: 'Montserrat', sans-serif;">motivos</span> por los que nuestros clientes <span
+              class="text-primary" style="font-family: 'Montserrat', sans-serif;">visitan nuestra clínica</span> de
+            fisioterapia</h2>
+          <p class="fs-5">La reputación de nuestros servicios de fisioterapia en Ciudad de México nos ha dado la
+            oportunidad de ayudar a muchas personas que hoy se han liberado del dolor.</p>
+          <p class="fs-5">Las razones por las que nuestros clientes nos eligen:</p>
+          <div class="col-lg-6">
+            <h1 class="fw-bold display-1 text-success">01</h1>
+            <h3 class="fw-medium fs-2 text-primary">No solo tratamos el dolor; lo curamos.</h3>
+            <p class="fs-5">Lo nuestro no es solo enfocarnos en tu lesión sino en tratar la causa de la misma y así
+              evitar
+              que más adelante vuelva a causarte malestar.</p>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fw-bold display-1 text-success">02</h1>
+            <h3 class="fw-medium fs-2 text-primary">Fisioterapia y rehabilitación personalizada</h3>
+            <p class="fs-5">Nuestros tratamientos nunca son protocolizados, sino adaptados a la naturaleza de tu lesión.
+              Cada paciente merece un tratamiento a la altura.</p>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fw-bold display-1 text-success">03</h1>
+            <h3 class="fw-medium fs-2 text-primary">3 Pilares en todos nuestros tratamientos</h3>
+            <p class="fs-5">Todos nuestros tratamientos están distribuidos en 3 fases: eliminación del dolor e
+              inflamación, reestructuración postural y articular, así como fortalecimiento muscular terapéutico.</p>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fw-bold display-1 text-success">04</h1>
+            <h3 class="fw-medium fs-2 text-primary">Un fisioterapeuta cerca de ti</h3>
+            <p class="fs-5">Estaremos contigo a lo largo de tu camino hacia una vida saludable y libre de dolor. Nuestra
+              intervención no se limitará solo a los días en que visites nuestro centro de rehabilitación física en
+              CDMX.
+            </p>
+          </div>
         </div>
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/traumatologica.png">
-          <h3>Traumatológica</h3>
-          <p>Tratamiento de las afecciones musculo-esqueléticas propias de una lesión o posterior a una intervención
-            quirúrgica.</p>
+      </div>
+    </section>
+    <!-- precios y paquetes -->
+    <section class="container-fluid container-md text-center preciosypack">
+      <h2 class="fw-semibold display-5 row-cols-12 text-center mb-5 mt-5">Precios y Paquetes</h2>
+      <div class="row row-cols-1 row-cols-md-2  row-cols-xl-4 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Primer Consulta</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><sup>MXN</sup>$0</h1>
+              <p class="fs-5 fw-light">1er consulta</p>
+              <div class="d-flex text-start container beneficios">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Para nuevos pacientes</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Valoración</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Recomendaciones</li>
+                  <br>
+                </ul>
+              </div>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary btnoutline">Agenda una cita</button>
+            </div>
+          </div>
         </div>
-
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/geriatric.png">
-          <h3>Geriátrica</h3>
-          <p>Prevención y tratamiento de lesiones o patologías propias del envejecimiento o procesos degenerativos.</p>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 bg-danger-subtle">
+              <h4 class="my-0 fw-normal">Básico</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><sup>MXN</sup>$750</h1>
+              <p class="fs-5 fw-light">Sesión Individual</p>
+              <div class="d-flex text-start container beneficios">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Sesión de 50 minutos</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Incluye Valoración</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Plan Terapéutico</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Recomendaciones</li>
+                </ul>
+              </div>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Agenda una cita</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/pelvis.png">
-          <h3>Suelo Pélvico</h3>
-          <p>Prevención y tratamiento de las distintas disfunciones de suelo pélvico en hombres y mujeres.</p>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Paquete Mediano</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><sup>MXN</sup>$580</h1>
+              <p class="fs-5 fw-light pb-0 mb-0">precio por sesión</p>
+              <p class="fs-5 fw-light pb-0 mb-0">10 Sesiones</p>
+              <div class="d-flex text-start container beneficios">
+                <ul class="list-unstyled mt-1 mb-4">
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Sesiones de 50 minutos</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Beneficios <strong>Básico</strong>
+                  </li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Seguimiento a distancia</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Plan en casa</li>
+                </ul>
+              </div>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Agenda una cita</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/estimulacion.png">
-          <h3>Estimulación Temprana</h3>
-          <p>Intervención oportuna para la evolución de los hitos del desarrollo.</p>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 bg-primary-subtle">
+              <h4 class="my-0 fw-normal">Paquete Grande</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title"><sup>MXN</sup>$550</h1>
+              <p class="fs-5 fw-light pb-0 mb-0">precio por sesión</p>
+              <p class="fs-5 fw-light pb-0 mb-0">20 Sesiones</p>
+              <div class="d-flex text-start container beneficios">
+                <ul class="list-unstyled mt-1 mb-4">
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Sesiones de 50 minutos</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>Beneficios <strong>Mediano</strong>
+                  </li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>3 sesiones a domicilio</li>
+                  <li><i class="fa-regular fa-circle-check me-3 text-primary"></i>15% en 5 sesiones básicas</li>
+                </ul>
+              </div>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Agenda una cita</button>
+            </div>
+          </div>
         </div>
-
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/respiratoria.png">
-          <h3>Respiratoria</h3>
-          <p>rehabilitación pulmonar por enfermedad respiratoria o para mejorar el rendimiento deportivo.</p>
-        </div>
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/masaje.png">
-          <h3>Masajes Terapéuticos</h3>
-          <p>Técnicas de manipulación muscular para promover la relajación y bienestar del cuerpo.</p>
-        </div>
-        <div class="col-md-6 tarjeta-s  col-lg-4">
-          <img src="../img/linfatico.png">
-          <h3>Drenaje linfático Manual</h3>
-          <p>Manipulación específica de masaje que busca activar el sistema linfático, indicado en procesos post
-            quirúrgicos y linfedema.</p>
-        </div>
+      </div>
     </section>
   </main>
-  
-  <footer class="pt-5 pb-2">
-    <div class="row text-center text-md-start">
-      <div class="footer-logo col-md-3 mx-auto mt-3 w-50">
-        <a href="../index.html"><img src="../img/Logo.png" alt="Logo" width="200px" /></a>
-        <p class="mt-3 fw-medium text-white">
-          Andar es el mejor ejercicio posible. Habitúate a andar muy lejos.
-          Thomas Jefferson
-        </p>
-      </div>
-      <div class="footer-icons col-md-3 mx-auto mt-3">
-        <div class="footer-social mb-3 spac d-md-flex justify-content-md-between">
-          <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
-          <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
-          <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-2xl"></i></a>
+  <footer class="text-center text-lg-start text-white bg-primary">
+    <!-- logo, contact, menu* -->
+    <!-- Grid container -->
+    <div class="p-4 pb-0">
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 mb-3 d-flex justify-content-center align-items-center">
+            <img src="../img/logoM.svg" height="50px" alt="logo">
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 mb-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Horarios
+            </h6>
+            <table class="table text-center text-white">
+              <tbody class="fw-normal">
+                <tr>
+                  <td>Lun - Jue:</td>
+                  <td>8am - 8pm</td>
+                </tr>
+                <tr>
+                  <td>Vie - Sab:</td>
+                  <td>8am - 2pm</td>
+                </tr>
+                <tr>
+                  <td>Domingo:</td>
+                  <td>8am - 2pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 mb-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+            <p><i class="fas fa-home me-3 text-danger"></i> Av, Universidad 321</p>
+            <p><i class="fas fa-envelope me-3 text-danger"></i> movingfisio@mail.com</p>
+            <p><i class="fas fa-phone me-3 text-danger"></i> + 52 55 55 55 55 55</p>
+            <p><i class="fa-brands fa-whatsapp me-3 text-danger"></i> + 52 55 55 55 55 55</p>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 mb-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Siguenos</h6>
+
+            <!-- Facebook -->
+            <a class="btn btn-primary shadow btn-floating m-1" href="#!" role="button"><i
+                class="fab fa-facebook-f text-light"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-secondary shadow btn-floating m-1" href="#!" role="button"><i
+                class="fab fa-twitter text-light"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-success shadow btn-floating m-1" href="#!" role="button"><i
+                class="fab fa-instagram text-light"></i></a>
+          </div>
         </div>
-        <div class="footer-contact mt-4">
-          <a class="fw-medium text-decoration-none" href=""><i class="fa-solid fa-square-envelope fa-2xl"></i>&nbsp;
-            email@mail.com</a><br /><br />
-          <a class="fw-medium text-decoration-none" href=""><i class="fa-brands fa-square-whatsapp fa-2xl"></i>&nbsp;
-            +52
-            5555555555</a>
-        </div>
-      </div>
-      <div class="mt-4 footer-copyright col-md-12 text-center font-monospace fs-6 text-secondary">
-        &copy; Derechos de autor 2023 | Fundación Soner
-      </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
     </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-primary text-secondary copyr">
+      <span class="text-danger">©</span> 2023 Copyright | Fundación Soner
+      <a class="text-white" href="#"></a>
+    </div>
+    <!-- Copyright -->
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
