@@ -103,7 +103,7 @@
         <div class="row py-5 container">
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/camillas.png" class="card-img-top w-50 p-3 mx-auto" alt="mecanoterapia">
+              <img src="../img/camillas.png" data-aos="fade-up-right" class="card-img-top w-50 p-3 mx-auto" alt="mecanoterapia">
               <div class="card-body">
                 <h5 class="text-center text-primary">Camillas</h5>
                 <hr>
@@ -113,7 +113,7 @@
           </div>
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/areafortalecimiento.png" class="card-img-top w-50 p-3 mx-auto" alt="mecanoterapia">
+              <img src="../img/areafortalecimiento.png" data-aos="zoom-out-left" class="card-img-top w-50 p-3 mx-auto" alt="mecanoterapia">
               <div class="card-body">
                 <h5 class="text-center text-primary">Area de Fortalecimiento</h5>
                 <hr>
@@ -123,7 +123,7 @@
           </div>
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/electrotherapy.png" class="card-img-top w-50 p-3 mx-auto" alt="electroterapia">
+              <img src="../img/electrotherapy.png" data-aos="fade-down-right" class="card-img-top w-50 p-3 mx-auto" alt="electroterapia">
               <div class="card-body">
                 <h5 class="text-center text-primary">Electroterapia</h5>
                 <hr>
@@ -133,7 +133,7 @@
           </div>
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/mecanoterapia.png" class="card-img-top w-50 p-3 mx-auto" alt="mecanoterapia">
+              <img src="../img/mecanoterapia.png" data-aos="slide-up" class="card-img-top w-50 p-3 mx-auto" alt="mecanoterapia">
               <div class="card-body">
                 <h5 class="text-center text-primary">Mecanoterapia</h5>
                 <hr>
@@ -143,7 +143,7 @@
           </div>
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/hidrotherapy.png" class="card-img-top w-50 p-3 mx-auto" alt="hidroterapia">
+              <img src="../img/hidrotherapy.png" data-aos="zoom-out-down" class="card-img-top w-50 p-3 mx-auto" alt="hidroterapia">
               <div class="card-body">
                 <h5 class="text-center text-primary">Hidroterapia</h5>
                 <hr>
@@ -153,7 +153,7 @@
           </div>
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/ultrasound.png" class="card-img-top w-50 p-3 mx-auto" alt="ultrasonido">
+              <img src="../img/ultrasound.png" data-aos="flip-right" class="card-img-top w-50 p-3 mx-auto" alt="ultrasonido">
               <div class="card-body">
                 <h5 class="text-center text-primary">Ultrasonido</h5>
                 <hr>
@@ -163,7 +163,7 @@
           </div>
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/thermotherapy.png" class="card-img-top w-50 p-3 mx-auto" alt="termoterapia">
+              <img src="../img/thermotherapy.png" data-aos="fade-up-right" class="card-img-top w-50 p-3 mx-auto" alt="termoterapia">
               <div class="card-body">
                 <h5 class="text-center text-primary">Termoterapia</h5>
                 <hr>
@@ -173,7 +173,7 @@
           </div>
           <div class="col-sm-6 col-lg-3 p-2">
             <div class="card cardEquipo">
-              <img src="../img/laser.png" class="card-img-top w-50 p-3 mx-auto" alt="laser">
+              <img src="../img/laser.png" data-aos="zoom-in-up" class="card-img-top w-50 p-3 mx-auto" alt="laser">
               <div class="card-body">
                 <h5 class="text-center text-primary">Laser</h5>
                 <hr>
@@ -185,7 +185,7 @@
       </div>
     </section>
     <!-- Preguntas Frecuentes -->
-    <section class="py-5">
+    <section class="py-5" data-aos="zoom-in">
       <h3 class="fw-semibold display-6 mb-4 text-center">Preguntas y <span class="text-primary"
         style="font-family: 'Montserrat', sans-serif;">Respuestas</span></h3>
       <div class="container">
@@ -287,7 +287,7 @@
         <div class="row">
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 mb-3 d-flex justify-content-center align-items-center">
-            <img src="../img/logoM.svg" height="50px" alt="logo">
+            <img src="../img/logoM.svg" data-aos="zoom-in" height="50px" alt="logo">
           </div>
           <!-- Grid column -->
           <hr class="w-100 clearfix d-md-none" />
@@ -341,7 +341,7 @@
                 class="fab fa-twitter text-light"></i></a>
 
             <!-- Instagram -->
-            <a class="btn btn-success shadow btn-floating m-1" href="#!" role="button"><i
+            <a class="btn btn-danger shadow btn-floating m-1" href="#!" role="button"><i
                 class="fab fa-instagram text-light"></i></a>
           </div>
         </div>
@@ -360,6 +360,13 @@
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../node_modules/aos/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 2000
+    });
+  </script>
 </body>
 
 </html>
