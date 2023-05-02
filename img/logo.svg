@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="936.19678pt"
-   height="241.79376pt"
-   viewBox="0 0 936.19678 241.79376"
+   width="500pt"
+   height="129.13618pt"
+   viewBox="0 0 500 129.13618"
    preserveAspectRatio="xMidYMid"
    id="svg819"
    sodipodi:docname="logo.svg"
@@ -18,6 +18,22 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs823">
+    <linearGradient
+       id="linearGradient2110"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#f5f5f5;stop-opacity:1;"
+         offset="0"
+         id="stop2108" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient865"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffc831;stop-opacity:1;"
+         offset="0"
+         id="stop863" />
+    </linearGradient>
     <linearGradient
        id="linearGradient8626"
        inkscape:swatch="solid">
@@ -42,82 +58,146 @@
        id="rect2651" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient8620"
-       id="linearGradient8622"
-       x1="214.44507"
-       y1="181.4959"
-       x2="745.14496"
-       y2="181.4959"
+       xlink:href="#linearGradient865"
+       id="linearGradient867"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient8626"
-       id="linearGradient8628"
-       x1="214.44507"
-       y1="181.4959"
-       x2="745.14496"
-       y2="181.4959"
-       gradientUnits="userSpaceOnUse" />
+       xlink:href="#linearGradient865"
+       id="linearGradient869"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient865"
+       id="linearGradient871"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient865"
+       id="linearGradient873"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient865"
+       id="linearGradient875"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient865"
+       id="linearGradient877"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient865"
+       id="linearGradient879"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient865"
+       id="linearGradient887"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient865"
+       id="linearGradient893"
+       gradientUnits="userSpaceOnUse"
+       x1="38.201614"
+       y1="195.16348"
+       x2="975.117"
+       y2="195.16348" />
   </defs>
   <sodipodi:namedview
      id="namedview821"
-     pagecolor="#ffffff"
+     pagecolor="#0032ff"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#ffffff"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.96102398"
-     inkscape:cx="563.46149"
-     inkscape:cy="332.97816"
+     inkscape:zoom="2.1971356"
+     inkscape:cx="205.7224"
+     inkscape:cy="-5.0065185"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g9777" />
+     inkscape:current-layer="g8616" />
   <g
      id="g1145"
-     transform="translate(-38.201615,-73.917317)"
-     style="fill:#ffc831;fill-opacity:1">
+     transform="matrix(0.16543024,0,0,0.16543024,-6.3197023,-12.22816)"
+     style="fill:url(#linearGradient867);fill-opacity:1;stroke:none">
     <g
        id="g9759"
-       transform="translate(0,-129.10312)">
+       transform="translate(0,-129.10312)"
+       style="fill:url(#linearGradient893);fill-opacity:1;stroke:none">
       <g
-         id="g9746"
-         transform="translate(210.71274,204.26557)">
+         id="g8616"
+         style="fill:#000000;fill-opacity:1;stroke:#f5f5f5;stroke-opacity:0.960784"
+         transform="translate(229.25346,204.26557)">
         <g
-           id="g9777"
-           transform="translate(18.540717)"
-           style="fill:#ffffff">
+           id="g3775"
+           transform="matrix(5,0,0,5,764.20737,4.9805118)">
           <g
              id="g1000"
-             transform="translate(111.97807,-45.975512)"
-             style="fill:#ffc72c;fill-opacity:1">
+             transform="matrix(0.64568092,0,0,0.64568092,4.6087894,-30.12668)"
+             style="fill:url(#linearGradient879);fill-opacity:1;stroke:none">
             <g
                id="g9638"
                transform="translate(-309.82578,31.216703)"
-               style="fill:#ffc72c;fill-opacity:1">
+               style="fill:url(#linearGradient877);fill-opacity:1;stroke:none">
               <g
                  transform="matrix(0.1,0,0,-0.1,-2.2041322,262.30744)"
                  fill="#000000"
                  stroke="none"
                  id="g817"
-                 style="fill:#ffc72c;fill-opacity:1">
+                 style="fill:url(#linearGradient873);fill-opacity:1;stroke:none">
                 <path
                    d="m 90,1700 v -270 h 192 c 178,0 197,-2 262,-25 39,-13 365,-127 723,-253 l 653,-229 725,253 726,254 h 184 185 v 270 270 h -237 -238 l -674,-236 -674,-236 -672,236 -673,236 H 331 90 Z"
                    id="path813"
-                   style="fill:#ffc72c;fill-opacity:1" />
+                   style="fill:url(#linearGradient869);fill-opacity:1;stroke:none" />
                 <path
                    d="M 90,655 V 70 h 270 270 v 285 c 0,157 4,285 9,285 4,0 215,-70 467,-156 252,-85 539,-183 637,-216 l 178,-60 637,216 c 351,119 641,216 645,216 4,0 7,-128 7,-285 V 70 h 270 270 v 585 585 H 3507 3264 L 2599,1014 C 2234,890 1928,788 1920,787 c -8,0 -315,101 -681,226 L 574,1240 H 332 90 Z"
                    id="path815"
-                   style="fill:#ffc72c;fill-opacity:1" />
+                   style="fill:url(#linearGradient871);fill-opacity:1;stroke:none" />
               </g>
               <circle
-                 style="fill:#ffc72c;fill-opacity:1;stroke-width:2.15545"
+                 style="fill:url(#linearGradient875);fill-opacity:1;stroke:none;stroke-width:2.15545"
                  id="path994"
                  cx="31.002029"
                  cy="36.413261"
@@ -125,38 +205,39 @@
             </g>
           </g>
           <g
-             id="g8616"
-             style="fill:url(#linearGradient8622);fill-opacity:1;stroke:url(#linearGradient8628)">
+             id="g2982"
+             style="fill:#ffffff;fill-opacity:1"
+             transform="matrix(0.64568091,0,0,0.64568091,-67.693315,-0.44117379)">
             <text
                xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient8622);fill-opacity:1;stroke-width:1.43717;stroke:url(#linearGradient8628)"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.43717;stroke-opacity:0.960784"
                x="208.44507"
                y="192.76317"
                id="text1080"><tspan
                  sodipodi:role="line"
                  id="tspan1078"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient8622);fill-opacity:1;stroke-width:1.43717;stroke:url(#linearGradient8628)"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.43717;stroke-opacity:0.960784"
                  x="208.44507"
                  y="192.76317">moving</tspan></text>
             <text
                xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient8622);fill-opacity:1;stroke-width:1.43717;stroke:url(#linearGradient8628)"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.43717;stroke-opacity:0.960784"
                x="284.69751"
                y="240.36864"
                id="text1134"><tspan
                  sodipodi:role="line"
                  id="tspan1132"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient8622);fill-opacity:1;stroke-width:1.43717;stroke:url(#linearGradient8628)"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.43717;stroke-opacity:0.960784"
                  x="284.69751"
                  y="240.36864">fisioterapia</tspan></text>
           </g>
-          <text
-             xml:space="preserve"
-             transform="matrix(0.75,0,0,0.75,-229.25346,-130.34825)"
-             id="text2649"
-             style="font-size:53.3333px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';white-space:pre;shape-inside:url(#rect2651);display:inline;fill:#ffc72c;fill-opacity:1;stroke-width:1.91622" />
         </g>
       </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.75,0,0,0.75,0,73.91732)"
+         id="text2649"
+         style="font-size:53.3333px;font-family:'rigel star';-inkscape-font-specification:'rigel star, Normal';white-space:pre;shape-inside:url(#rect2651);display:inline;fill:url(#linearGradient887);fill-opacity:1;stroke:none;stroke-width:1.91622" />
     </g>
   </g>
 </svg>
