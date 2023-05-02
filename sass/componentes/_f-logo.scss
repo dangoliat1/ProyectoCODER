@@ -1,0 +1,9 @@
+.logoscontacto{
+    @extend .f-logocontacto;
+    color: #e26972;
+}
+
+.logoscontacto:hover{
+    @extend .f-logocontacto;
+    color: #ffC72c;
+}
