@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8mm"
+   height="21.5mm"
+   viewBox="0 0 8 21.5"
+   version="1.1"
+   id="svg11984"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="lineav1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11986"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:connector-spacing="9"
+     inkscape:zoom="0.9983453"
+     inkscape:cx="-1.0016574"
+     inkscape:cy="122.70304"
+     inkscape:window-width="1350"
+     inkscape:window-height="1230"
+     inkscape:window-x="1215"
+     inkscape:window-y="56"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g16134" />
+  <defs
+     id="defs11981">
+    <linearGradient
+       id="linearGradient16128"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#3003e2;stop-opacity:1;"
+         offset="0"
+         id="stop16126" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13129"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#3003e2;stop-opacity:1;"
+         offset="0"
+         id="stop13127" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13123"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#0303e2;stop-opacity:1;"
+         offset="0"
+         id="stop13121" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect12647"
+       is_visible="true"
+       lpeversion="1"
+       offset_points="0.3848267,4.3378772"
+       not_jump="true"
+       sort_points="true"
+       interpolator_type="CentripetalCatmullRom"
+       interpolator_beta="0.75"
+       start_linecap_type="round"
+       linejoin_type="spiro"
+       miter_limit="4"
+       scale_width="1"
+       end_linecap_type="round" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect12645"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.0047745358"
+       smooth_angles="0"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       step="1" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-100.86147,-57.239919)">
+    <g
+       id="g12756"
+       style="fill:#0303e2;fill-opacity:1">
+      <g
+         id="g16055"
+         transform="matrix(1.1323465,0,0,1.1323465,-8.9873419,-4.0848026)">
+        <g
+           id="g16134"
+           transform="matrix(1.0211331,0,0,1.0211331,-2.0501074,-1.1445044)"
+           style="stroke-width:0.979309">
+          <rect
+             style="opacity:1;fill:#3003e2;fill-opacity:1;stroke:none;stroke-width:0.438471;stroke-opacity:1"
+             id="rect16124"
+             width="0.35048902"
+             height="18.594168"
+             x="-100.64451"
+             y="54.1572"
+             transform="scale(-1,1)" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
