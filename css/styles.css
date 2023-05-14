@@ -11931,6 +11931,10 @@ nav a {
   min-height: 390px;
 }
 
+.btnservicio {
+  min-width: 140px !important;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 /* Medium devices (tablets, 768px and up) */
 /* Large devices (desktops, 992px and up) */
